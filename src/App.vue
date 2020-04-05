@@ -1,22 +1,16 @@
 <template>
-  <div id="app">
-      <el-button type="primary">主要按钮</el-button>
+  <div class="app">
       <router-view></router-view>
   </div>
 </template>
 
 <script>
-
-
-
-export default {
-  name: 'App',
-  components: {
+  export default {
 
   }
-}
 </script>
 
-<style>
-
+<style lang="less">
+  // 使用less 
+  
 </style>
